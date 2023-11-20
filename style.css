@@ -1,0 +1,391 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*--------------------------------------------------------------
+# custom- part
+--------------------------------------------------------------*/
+
+nav
+{
+    background-image: linear-gradient(rgb(26,24,122),rgb(24,26,122));
+    width: 100%;
+    padding: 50px;
+}
+nav img
+{
+    width: 250px;
+    height: 80px;
+} 
+nav form
+{
+    width: 50%;
+}
+.fa-magnifying-glass
+{
+    margin-top: 10px;
+    margin-left: -25px;
+}
+
+.first-sd
+{
+    width: 35%;
+    margin-left: 65%;
+    margin-top: 10px;
+}
+
+.first-sds
+{
+    width: 15%;
+    margin-left: 75%;
+    margin-top: 10px;
+}
+
+#carouselExampleCaptions
+{
+    width: 100%;
+    /* height: 400px; */
+    background-image: linear-gradient(rgb(254,211,257),rgb(189,147,250));
+    overflow-y: hidden;
+    color: black;
+    
+}
+
+input
+{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color:rgb(26,24,122) ;
+    color: white;
+    font-weight: 700;
+
+} 
+.benner-img1 img
+{
+    width: 400px;
+    height: 300px;
+    margin-left: -200px;
+    margin-top: 30px;
+}
+.benner-img2 img
+{
+    width: 100px;
+    height: 100px;
+}
+
+
+.benner-flex
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* width: 100%; */
+    
+
+}
+.div1 img
+{
+    /* width: 400px;
+    height: 200px; */
+    width: 513px;
+    height: 343px;
+    margin-left: -90px;
+}
+.div3
+{
+    background-color: rgb(237,237,237);
+    width: 100%;
+    height: 343px;
+
+}
+.div4 img
+{
+    width: 200px;
+    height: 300px;
+}
+.div3 input
+{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color:rgb(26,24,122) ;
+    color: white;
+    font-weight: 700;
+}
+
+.div2
+{
+    margin-right: 40px;
+}
+
+.catagory
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+    /* width: 100%; */
+}
+.child img
+{
+    width:100px;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.child
+{
+    width: 150px;
+    height: 150xp;
+    background: #EDEDED;
+    border-radius: 10px;
+
+}
+
+.card
+{
+    box-shadow: 4px 0px 13px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: 4px 0px 13px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 0px 13px -4px rgba(0,0,0,0.75);
+}
+.parent-card
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: row;
+    gap: 20px;
+}
+.card img
+{
+    width: 160px;
+    height: 160px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.display-benner
+{
+    width: 100%;
+    height: 400px;
+    background: #958AD4;
+   
+}
+.child-ben1 img
+{
+    width: 421px;
+    height: 342px;
+    margin-top: 3%;
+    margin-left: -5%;
+}
+.parnet-benner
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px; 
+  
+}
+
+.child-ben3 img
+{
+    width: 421px;
+    height: 342px;
+    margin-top: 3%;
+    
+}
+
+.footer
+{
+    width: 100%;
+    height: auto;
+    background-color:rgb(16,10,30) ;
+    color: white;
+}
+
+
+@media (max-width: 576px) { 
+    
+
+    .parent-card
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+        flex-direction: column;
+        gap: 20px;
+        margin-left:40px;
+    }
+    nav
+    {
+        background-image: linear-gradient(rgb(26,24,122),rgb(24,26,122));
+        width: 102%;
+        padding: 50px;
+    }
+    
+    nav .ms-5 {
+        margin-left: 0rem!important;
+    }
+
+
+    .catagory
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        /* flex-wrap: wrap; */
+        /* width: 100%; */
+    }
+
+    .mt-5 {
+        margin-top: 5.5rem!important;
+        text-align: center;
+    }
+
+    .benner-flex
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10%;
+        /* flex-wrap: wrap; */
+        /* width: 100%; */    
+
+    }
+    .div4
+    {
+        width: 104%;
+        background-color: #EDEDED;
+    }
+    .div4 img {
+        width: 380px;
+        height: 300px;
+        margin-left: 10px;
+       
+    }
+
+    .div4 img {
+        width: 349px;
+        height: 300px;
+        margin-left: 20px;
+    }
+    .div2 {
+        margin-right: 14px;
+        text-align: center;
+    }
+    .parnet-benner
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px; 
+    
+    }
+    .display-benner
+    {
+        width: 102%;
+        height:90%;
+        background: #958AD4;;
+    
+    }
+
+    .child-ben1 img {
+        width: 256px;
+        height: 294px;
+        margin-left: 5%;
+    }
+
+    #carouselExampleCaptions
+    {
+        width: 102%;
+        height: 90%;
+        background-image: linear-gradient(rgb(254,211,257),rgb(189,147,250));
+        overflow-y: hidden;
+        color: black;
+        
+    }
+    .flex-column
+    {
+        font-size: 10px;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+
+
+    .flex-column h1
+    {
+        font-size: 50px;
+    
+    
+    }
+
+    .first-sds {
+        width: 49%;
+        margin-left: 23%;
+        margin-top: 26px;
+    }
+    .first-sd {
+        width: 105%;
+        margin-left: 0%;
+        margin-top: 36px;
+    }
+    .first-sdx {
+        width: 142%;
+        margin-left: -20%;
+        margin-top: 71px;
+    }
+    .child-ben3 img {
+        width: 347px;
+        height: 342px;
+        margin-top: 3%;
+    }
+    .div3
+    {
+        background-color: rgb(237,237,237);
+        width: 104%;
+        height: 343px;
+
+    }
+    .div1 img {
+        width: 450px;
+        height: 343px;
+        margin-left: -90px;
+    }
+    .footer
+    {
+        width: 100%;
+        background-color:rgb(16,10,30) ;
+        color: white;
+        text-align: center;
+        height: auto;
+    }
+    .img-fluid {
+        max-width: 77%;
+        height: auto;
+    }
+    .fd .fa-brands
+    {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+}
